@@ -4,7 +4,6 @@ import { useState } from "react";
 import Image from "next/image";
 import { Menu, X } from "lucide-react"; 
 import { Github, Linkedin } from "lucide-react"; 
-import Link from "next/link";
 
 export default function LandingPage() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,7 +12,7 @@ export default function LandingPage() {
     <div className="min-h-screen bg-gradient-to-br from-orange-100 to-yellow-100 flex flex-col">
       {/* Navbar */}
       <nav className="flex items-center justify-between px-6 md:px-10 py-6 relative">
-        <h1 className="text-xl font-serif italic">Akhona's Portfolio.</h1>
+        <h1 className="text-xl font-serif italic">Akhona&apos;s Portfolio.</h1>
 
         {/* Desktop Menu */}
 
@@ -82,7 +81,7 @@ export default function LandingPage() {
           <h2 className="text-5xl md:text-6xl font-light italic">
             Hey there,
           </h2>
-          <h1 className="text-4xl md:text-5xl font-extrabold">I'M AKHONA MDLULI</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold">I&apos;M AKHONA MDLULI</h1>
 
           <div className="flex items-center gap-4 mt-4">
             <a
